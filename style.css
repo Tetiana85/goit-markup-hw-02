@@ -1,0 +1,161 @@
+:root{
+    --button-iris: #4D5AE5;
+    --hover-focus-color: #404BBF;
+    --white-color: #FFF;
+    --color-footer: #F4F4FD;
+    --main-color: #2E2F42;
+    --p-color: #434455;
+    --btn-border-color: #E7E9FC;
+}
+
+a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-style: normal;
+}
+a:hover, a:focus{
+    color: var(--hover-focus-color);
+
+}
+
+ul{
+    list-style: none;
+
+}
+button{
+    font: inherit;
+    cursor: pointer;
+}
+
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.67;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+
+p{
+    color: var(--p-color);
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--main-color);
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    
+}
+
+
+/* -------HEADER----- */
+
+.logo-header{
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 0.875;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+span{
+    color: var(--hover-focus-color);
+}
+
+.menu{
+    font-weight: 500;
+}
+
+
+/* -----------SOLUTIONS------------- */
+
+.solutions{
+    background-color: var(--main-color);
+}
+.solutions-title{
+    color: var(--white-color);
+    color: var(--white, #FFF);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 2.5;
+    letter-spacing: 1.12px;
+}
+
+.button-order{
+    color: var(--white-color);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    background: var(--button-iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.button-order:hover{
+    background-color: var(--hover-focus-color); 
+
+}
+
+.button-order:active{
+    background-color: var(--hover-focus-color); 
+
+}
+
+.button-order:focus{
+    background-color: var(--hover-focus-color); 
+}
+
+
+/* ------DOING------- */
+
+
+/* --------TEAM--------- */
+
+
+/* -------FOOTER-------- */
+
+footer{
+    background-color: var(--main-color);
+}
+
+.logo-footer{
+    color: var(--color-footer);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 0.875;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.footer-text{
+    color: var(--color-footer);
+}
+
+
+/* --------FILTER--------- */
+
+.button-filter{
+    color: var(--button-iris);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    border: 1px solid var(--btn-border-color);
+    background: var(--color-footer);
+}
+
+.button-filter:hover, .button-filter:active {
+    color: var(--white-color);
+    border-radius: 4px;
+    background: var(--hover-focus-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
