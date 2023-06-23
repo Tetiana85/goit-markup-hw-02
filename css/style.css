@@ -88,8 +88,8 @@ body{
 .solutions-title{
     color: var(--bg-color);
     font-size: 56px;
+    letter-spacing: 0.02em;
     line-height: 1.07;
-    letter-spacing: 1.12px;
     text-align: center;
     
 }
