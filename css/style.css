@@ -18,7 +18,6 @@ button{
 body{
     font-family: "Roboto", sans-serif;
     color: var(--main-color);
-    letter-spacing: 0.32px;
     background-color: var(--bg-color);
     
 }
@@ -39,14 +38,15 @@ body{
     text-decoration: none;
 }
 
-.link:hover, .link:active{
+.link:hover, .link:focus{
     color: var(--hover-focus-color);
 }
-span{
+
+.span{
     color: var(--titles-color);
 }
 
-span:hover, span:active{
+.span:hover, .span:focus{
     color: var(--hover-focus-color)
 }
 
@@ -57,7 +57,7 @@ span:hover, span:active{
     font-style: normal;
     font-weight: 500;
 }
-.list:hover, a:focus{
+.list:hover, .list:focus{
     color: var(--hover-focus-color);
 
 }
@@ -74,7 +74,6 @@ span:hover, span:active{
 }
 .address-link{
     color: var(--main-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -89,10 +88,10 @@ span:hover, span:active{
 .solutions-title{
     color: var(--bg-color);
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
+    
 }
 
 .li-title{
@@ -106,7 +105,7 @@ span:hover, span:active{
 .li-par{
     color: var(--main-color);
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     font-weight: 400;
 }
@@ -115,7 +114,7 @@ span:hover, span:active{
     color: var(--bg-color);
     font-weight: 500;
     letter-spacing: 0.64px;
-    background: var(--btn-and-logo);
+    background-color: var(--btn-and-logo);
 }
 
 
@@ -124,14 +123,11 @@ span:hover, span:active{
 
 }
 
-.button-order:active{
-    background-color: var(--hover-focus-color); 
-
-}
-
 .button-order:focus{
     background-color: var(--hover-focus-color); 
+
 }
+
 
 
 /* ------DOING------- */
@@ -182,7 +178,7 @@ span:hover, span:active{
    
 }
 
-.button-filter:hover, .button-filter:active, .button-filter:focus {
+.button-filter:hover, .button-filter:focus{
     color: var(--bg-color);
     background: var(--hover-focus-color);
 }
