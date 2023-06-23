@@ -188,7 +188,7 @@ span:hover, span:active{
     background: var(--hover-focus-color);
 }
 
-.li-title-h2{
+.li-title-products{
     color: var(--titles-color);
     font-weight: 500;
     font-size: 20px;
