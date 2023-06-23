@@ -187,12 +187,3 @@ span:hover, span:active{
     color: var(--bg-color);
     background: var(--hover-focus-color);
 }
-
-.li-title-products{
-    color: var(--titles-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-
-}
