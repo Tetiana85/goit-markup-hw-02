@@ -114,6 +114,7 @@ body{
     color: var(--bg-color);
     font-weight: 500;
     letter-spacing: 0.64px;
+    line-height: 1.5;
     background-color: var(--btn-and-logo);
 }
 
@@ -158,12 +159,15 @@ body{
 .footer{
     background-color: var(--titles-color);
     color: var(--bg-color-team-footer);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .footer-span{
     color: var(--bg-color-team-footer);
+}
+
+.footer-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
